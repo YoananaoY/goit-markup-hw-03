@@ -1,0 +1,39 @@
+body {
+    font-family: "roboto", sans-serif;
+    background-color: white;}
+
+.logo1 {
+    display: inline-block;
+    font-family: "raleway";
+    color: #2196F3;
+    font-size: 26px;
+    font-weight: 700; }
+.logo2 {
+    display: inline-block;
+    font-family: "raleway";
+    color: #000000;
+    font-size: 26px;
+    font-weight: 700; }
+
+
+ul#line li {
+    display: inline;
+}
+
+ul#line2 li {
+    display: inline;
+}
+ul#line3 li {
+    display: inline-block;
+    
+}
+
+button {
+    cursor: pointer
+}
+#line {
+    font-family: "roboto";
+    font-weight: 500;
+    color: black;
+    font-size: 14px;
+}
