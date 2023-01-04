@@ -5,9 +5,12 @@ body {
 .logo1 {
     display: inline-block;
     font-family: "raleway";
+    font-style: normal;
     color: #2196F3;
     font-size: 26px;
-    font-weight: 700; }
+    font-weight: 700; 
+}
+
 .logo2 {
     display: inline-block;
     font-family: "raleway";
@@ -27,9 +30,11 @@ ul#line3 li {
     display: inline-block;
     
 }
-
+.ours-assets {
+    font-family: "roboto";
+}
 button {
-    cursor: pointer
+    cursor: pointer;
 }
 #line {
     font-family: "roboto";
