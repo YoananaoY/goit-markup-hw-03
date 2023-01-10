@@ -1,34 +1,82 @@
 body {
   font-family: "roboto", sans-serif;
   background-color: white;
+  font-style: normal;
+
 }
 .header {
   background-color: #2f303a;
-  position: absolute;
   width: 1600px;
   height: 600px;
-  left: 0px;
-  top: 80px;
+
 }
 .header-text {
-  position: absolute;
   font-size: 44px;
   width: 696px;
   height: 120px;
   left: 452px;
-  top: 280px;
-  font-family: "Roboto";
-  font-style: normal;
+  top: 200px;
+  bottom: 280px;
   font-weight: 900;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  margin: auto;
+  display: block;
+  padding: 200px;
 }
+
+.btn-buy {
+  background-color: #2196f3;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+margin: 0 auto;
+justify-content: center;
+position: absolute; 
+height: 50px;
+width: 200px;
+left: 700px;
+top: 430px;
+border-radius: 4px;
+}
+
+.btn {
+  background-color: #f5f4fa;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #212121;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+
+}
+.btn:hover {
+  background-color: #2196f3;
+  text-decoration: none;
+  color: white;
+}
+
 .logo:hover {
   text-decoration: underline;
 }
+
 .logo {
   display: inline-block;
   font-family: "raleway";
@@ -37,13 +85,14 @@ body {
   font-size: 26px;
   font-weight: 700;
   text-decoration: none;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   line-height: 1, 38;
 }
 
 ul#line li {
   display: inline;
+
 }
 ul#line2 li {
   display: inline;
@@ -53,76 +102,34 @@ ul#line2 li {
   top: 430px;
   border-radius: 4px;
 }
+
 ul#line3 li {
   display: inline-block;
 }
-.ours-assets {
-  font-family: "roboto";
-}
+
 .line {
-  font-family: "roboto";
   font-weight: 500;
   color: #212121;
   font-size: 14px;
 }
+
 .line:active {
   color: #2196f3;
 }
+
 .line:visited {
   color: #2196f3;
 }
+
 .linecolor:hover {
   color: #2196f3;
-}
-.rectangle {
-  background-color: #f5f4fa;
-  cursor: pointer;
-  padding: 10px;
-  border-radius: 4px;
-}
-.rectangle:hover {
-  background-color: #2196f3;
-  text-decoration: none;
-}
-
-.filter {
-  color: black;
-  text-decoration: none;
-}
-.filter:hover {
-  color: #ffffff;
-  background-color: #2196f3;
-  text-decoration: none;
-}
-.filter-buy {
-  color: #ffffff;
-  text-decoration: none;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-decoration: none;
-  background-color: #2196f3;
-  cursor: pointer;
-  padding: 10px;
-  border-radius: 4px;
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .linecolor {
   color: #212121;
   font-weight: 500;
-  line-height: 16.41px;
+  font-size: 14px;
+  line-height: 1.17;
   letter-spacing: 2%;
   height: 16px;
   width: 58px;
@@ -131,6 +138,7 @@ ul#line3 li {
   border-radius: nullpx;
   text-decoration: none;
 }
+
 .navcolor {
   color: #757575;
   font-weight: 500;
@@ -144,9 +152,8 @@ ul#line3 li {
   border-radius: nullpx;
   text-decoration: none;
 }
-.container-bg {
-  font-family: "roboto", sans-serif;
-  font-style: normal;
+
+.card {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -160,29 +167,92 @@ ul#line3 li {
   border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
-.sign {
-  font-family: "roboto", sans-serif;
-  font-style: normal;
+
+.sign1 {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
-  width: 370px;
-  height: 404px;
-  left: 215px;
-  top: 262px;
+
 }
+
+.sign2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.sign3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.sign4 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.sign5 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.sign6 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.sign7 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.sign8 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.sign9 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+
 .sign:hover {
   text-decoration: underline;
   text-decoration-color: #2196f3;
 }
+
 .signature:hover {
   text-decoration: underline;
   text-decoration-color: #2196f3;
 }
+
 .signature {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -190,19 +260,19 @@ ul#line3 li {
   letter-spacing: 0.03em;
   color: #757575;
 }
+
 .street {
   width: 247px;
   height: 21px;
   left: 215px;
   top: 1739px;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+
 footer {
   width: 1600px;
   height: 252px;
@@ -212,8 +282,6 @@ footer {
 }
 
 .navcolor1 {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   width: 231px;
@@ -225,13 +293,13 @@ footer {
   letter-spacing: 0.03em;
   text-decoration: underline;
 }
+
 .navcolor2:hover {
   text-decoration: underline;
   text-decoration-color: #2196f3;
 }
+
 .navcolor2 {
-  font-family: "Roboto";
-  font-style: normal;
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   font-size: 14px;
@@ -248,13 +316,12 @@ footer {
   text-decoration: underline;
   text-decoration-color: #2196f3;
 }
+
 .street {
   width: 247px;
   height: 21px;
   left: 215px;
   top: 1739px;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.17;
