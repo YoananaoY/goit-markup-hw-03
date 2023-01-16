@@ -3,161 +3,188 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zadanie domowe GoIT Polska</title>
     <link rel="icon" type="image/x-icon" href="ico.png" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="./css/modern-normalize.css" />
   </head>
   <body>
     <header>
+    <div class="menu">
+      <a href="index.html" class="logo">
+        <span class="logo-text1" style="color: #2196f3">Web</span>
+        <span class="logo-text2" style="color: black">Studio</span>
+      </a>
       <nav>
-        <ul id="line">
-          <a href="index.html" class="logo" style="color: #2196f3">Web</a
-          ><a href="index.html" class="logo" style="color: black">Studio</a>
+        <ul class="nav-list">
           <li><a class="linecolor" href="Agency">Agencja</a></li>
           <li><a class="linecolor" href="portfolio.html">Portfolio</a></li>
           <li><a class="linecolor" href="Contact">Kontakty</a></li>
-          <li><a class="navcolor" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a class="navcolor" href="call:+48111111111">+48 111 111 111</a></li>
         </ul>
       </nav>
+      <div class="contact-bar">
+        <a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="tel" href="call:+48111111111">+48 111 111 111</a>
+      </div>
+    </div>
     </header>
-    <ul id="line2">
-      <li class="btn">
-        <a href="all.html" class="btn" type="button">Wszystkie</a></li>
-      <li class="btn">
-        <a href="pages.html" class="btn" type="button">Strony</a></li>
-      <li class="btn">
-        <a href="apps.html" class="btn" type="button">Aplikacje</a></li>
-      <li class="btn">
-        <a href="design.html" class="btn" type="button">Dizajn</a></li>
-      <li class="btn">
-        <a href="marketing.html" class="btn" type="button">Marketing</a></li>
-    </ul>
-    <br />
-    <ul id="line3">
+
+    <div class="button_line">
+    <ul class="line2">
       <li>
-        <div class="card">
+        <a href="all.html" class="btn" type="button">Wszystkie</a>
+      </li>
+      <li>
+        <a href="pages.html" class="btn" type="button">Strony</a>
+      </li>
+      <li>
+        <a href="apps.html" class="btn" type="button">Aplikacje</a>
+      </li>
+      <li>
+        <a href="design.html" class="btn" type="button">Dizajn</a>
+      </li>
+      <li>
+        <a href="marketing.html" class="btn" type="button">Marketing</a>
+      </li>
+    </ul>
+    </div>
+    <br />
+    <div class="container">
+    <ul id="cards">
+      <li class="sign-box">
           <img
-            class="project1"
+            class="project"
             src="./images/photo8.jpg"
             width="370"
             height="294"
-            alt="laptop"/>
-          <br /><span class="sign1">Technocrack<br /></span>
+            alt="laptop"
+          /><!-- <span class="sign-box"> -->
+          <br /><a class="box_text"><span class="sign1">Technocrack<br /></span>
           <span class="signature">Strona internetowa <br /></span>
-        </div>
+            </a>
+          <!-- </span> -->
       </li>
-      <li>
-        <div class="card">
+      <li class="sign-box">
           <img
-            class="project1"
+            class="project"
             src="./images/photo9.jpg"
             width="370"
             height="294"
-            alt="laptop"/>
-          <br /><span class="sign2">Grafika New Orlean vs Golden Star<br /></span>
+            alt="laptop"
+          /><!-- <span class="sign-box"> -->
+          <br /><span class="sign2"
+            >Grafika New Orlean vs Golden Star<br
+          /></span>
           <span class="signature">Dizajn <br /></span>
-        </div>
+      <!--  </span> -->
       </li>
-      <li>
-        <div class="card">
+      <li class="sign-box">
           <img
             class="project2"
             src="./images/photo10.jpg"
             width="370"
             height="294"
-            alt="basketball-players"/>
+            alt="basketball-players"
+          /><!-- <span class="sign-box"> -->
           <br /><span class="sign3">Restauracja Seafood<br /></span>
           <span class="signature">Aplikacja <br /></span>
-        </div>
+     <!--   </span> -->
       </li>
-      <li>
-        <div class="card">
+      <li class="sign-box">
           <img
             class="project3"
             src="./images/photo11.jpg"
             width="370"
             height="294"
-            alt="laptop"/>
+            alt="laptop"
+          /><!-- <span class="sign-box"> -->
           <br /><span class="sign4">Projekt Prime<br /></span>
           <span class="signature">Marketing <br /></span>
-        </div>
+        <!-- </span> -->
       </li>
-      <li>
-        <div class="card">
+      <li class="sign-box">
           <img
-            class="project1"
+            class="project"
             src="./images/photo12.jpg"
             width="370"
             height="294"
-            alt="laptop"/>
+            alt="laptop"
+          /><!-- <span class="sign-box"> -->
           <br /><span class="sign5">Projekt Boxes<br /></span>
           <span class="signature">Aplikacja <br /></span>
-        </div>
+      <!--   </span> -->
       </li>
-      <li>
-        <div class="card">
+      <li class="sign-box">
           <img
-            class="project1"
+            class="project"
             src="./images/photo13.jpg"
             width="370"
             height="294"
-            alt="laptop"/>
+            alt="laptop"
+          /><!-- <span class="sign-box"> -->
           <br /><span class="sign6">Inspiration has no Borders<br /></span>
           <span class="signature">Strona internetowa <br /></span>
-        </div>
+        <!-- </span> -->
       </li>
-      <li>
-        <div class="card">
-          <img
-            class="project1"
+      <li class="sign-box">
+          <img class="project"
             src="./images/photo14.jpg"
             width="370"
             height="294"
             alt="laptop"/>
+            <!-- <span class="sign-box"> -->
           <br /><span class="sign7">Magazyn Limited Edition<br /></span>
           <span class="signature">Dizajn <br /></span>
-        </div>
+     <!--   </span> -->
       </li>
-      <li>
-        <div class="card">
+      <li class="sign-box">
           <img
-            class="project1"
+            class="project"
             src="./images/photo15.jpg"
             width="370"
             height="294"
-            alt="laptop"/>
+            alt="laptop"
+          /><!-- span class="sign-box"> -->
           <br /><span class="sign8">Projekt LAB<br /></span>
           <span class="signature">Marketing <br /></span>
-        </div>
+      <!-- </span> -->
       </li>
-      <li>
-        <div class="card">
+      <li class="sign-box">
           <img
-            class="project1"
+            class="project"
             src="./images/photo16.jpg"
             width="370"
             height="294"
-            alt="laptop"/>
+            alt="laptop"
+          /><!-- <span class="sign-box"> -->
           <br /><span class="sign9">Growing Business<br /></span>
           <span class="signature">Aplikacja<br /></span>
-        </div>
+        <!-- </span> --></div>
       </li>
     </ul>
     <footer>
       <address class="footer-address">
-        <a class="logo" style="color: #2196f3">Web</a>
-        <a class="logo" style="color: white">Studio</a><br />
-        <a class="street">m. Warszawa, Aleje Jerozoliskie 21</a><br />
-        <a class="navcolor1" href="mailto:info@example.com">info@example.com</a><br />
-        <a class="navcolor2" href="+48 111 111 111">+48 111 111 111</a><br />
+        <a class="logo-text1" style="color: #2196f3">Web</a><a class="logo-text2" style="color: white">Studio</a><br />
+        <div class="address-footer">
+          <a class="street">m. Warszawa, Aleje Jerozoliskie 21</a><br />
+          <a class="navcolor1" href="mailto:info@example.com"
+            >info@example.com</a
+          ><br />
+          <a class="navcolor2" href="+48111111111">+48 111 111 111</a><br />
+        </div>
       </address>
     </footer>
   </body>
