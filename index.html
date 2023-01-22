@@ -21,7 +21,7 @@
     />
     <link rel="preconnect" href="./css/modern-normalize.css" />
   </head>
-  <body>
+  <body class="body">
     <div class="menu">
       <a href="index.html" class="logo">
         <span class="logo-text1" style="color: #2196f3">Web</span>
@@ -29,7 +29,7 @@
       </a>
       <nav>
         <ul class="nav-list">
-          <li><a class="linecolor" href="Agency">Agencja</a></li>
+          <li><a class="linecolor" href="index.html">Agencja</a></li>
           <li><a class="linecolor" href="portfolio.html">Portfolio</a></li>
           <li><a class="linecolor" href="Contact">Kontakty</a></li>
         </ul>
@@ -39,147 +39,149 @@
         <a class="tel" href="call:+48111111111">+48 111 111 111</a>
       </div>
     </div>
-    <header>
-      <div class="header">
-        <span class="header-text"
-          >EFEKTYWNE ROZWIĄZANIA <br />DLA WASZEGO BIZNESU <br
-        /></span>
-        <a class="btn-buy" href="buy.html" type="button" width="200" height="50"
-          >Zamów usługę</a
-        >
-      </div>
-    </header>
-    <section class="Ours-Assets">
+    <header class="header">
+      <div class="header-content">
+        <h1 class="head-text"
+          >EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <a class="btn-buy" href="buy.html" type="button">Zamów usługę</a>
+     </div>
+   </header>
+   <main class="container">
+    <section class="articles">
       <ul class="list">
-        <li>
-          <span class="title1">LOREM IPSUM</span>
-          <span class="oa1">
+        <li class="article">
+          <h3 class="title">LOREM IPSUM</h3>
+          <p class="oa">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-            arcu sem. Sed non sodales dui. Interdum et malesuada</span
+            arcu sem. Sed non sodales dui. Interdum et malesuada</p
           >
         </li>
-        <li>
-          <span class="title2">LOREM IPSUM</span>
-          <span class="oa2"
+        <li class="article">
+          <h3 class="title">LOREM IPSUM</h3>
+          <p class="oa"
             >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-            arcu sem. Sed non sodales dui. Interdum et malesuada</span
+            arcu sem. Sed non sodales dui. Interdum et malesuada</p
           >
         </li>
-        <li>
-          <span class="title3">LOREM IPSUM</span>
-          <span class="oa3">
+        <li class="article">
+          <h3 class="title">LOREM IPSUM</h3>
+          <p class="oa">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-            arcu sem. Sed non sodales dui. Interdum et malesuada</span
+            arcu sem. Sed non sodales dui. Interdum et malesuada</p
           >
         </li>
-        <li>
-          <span class="title4">LOREM IPSUM</span>
-          <span class="oa4"
+        <li class="article">
+          <h3 class="title">LOREM IPSUM</h3>
+          <p class="oa"
             >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-            arcu sem. Sed non sodales dui. Interdum et malesuada</span
+            arcu sem. Sed non sodales dui. Interdum et malesuada</p
           >
         </li>
-      </ul>
     </section>
-    <section>
-      <span class="our-job">Czym się zajmujemy</span>
-      <ul class="job-list">
-        <li class="oj1">
-          <img
-            class="box-1"
+        <section class="our-job">
+          <h2 class="job-header">Czym się zajmujemy</h2>
+          <div>
+          <ul class="job-list">
+            <li class="oj">
+            <img
+            class="box"
             src="./images/photo5.jpg"
             width="370"
             height="294"
-            alt="zoom on hands writing code"
-          />
-        </li>
-        <li class="oj2">
-          <img
-            class="box-2"
+            alt="zoom on hands writing code"/>
+            </li>
+            <li class="oj">
+            <img
+            class="box"
             src="./images/photo6.jpg"
             width="370"
             height="294"
-            alt="zoom on hands unlocking phone"
-          />
-        </li>
-        <li class="oj3">
-          <img
-            class="box-3"
+            alt="zoom on hands unlocking phone"/>
+            </li>
+            <li class="oj">
+            <img
+            class="box"
             src="./images/photo7.jpg"
             width="370"
             height="294"
             alt="zoom on hands holding tablet with colour palette"
           />
-        </li>
-      </ul>
-    </section>
-    <section>
-      <span class="our-team">Nasz Zespół</span>
-      <ul class="team-list">
-        <br />
-        <li class="ot1">
-          <img
+            </li>
+          </ul>
+          </div>
+        </section>
+          <section class="our-team">
+        <div class="section-bg">
+          <h3 class="team-header">Nasz Zespół</h3> 
+          <ul class="team-list">
+          <li class="ot">
+              <img
             class="Team-Card-1"
             src="./images/photo1.jpg"
             width="270"
             height="260"
             alt="middle-aged brown haired men wearing glasses, smiles"
           />
-          <br /><span class="name">John Doe</span><br /><span class="prof"
+          <figcaption class="index-figcaption">
+          <h4 class="name">John Doe</h4><span class="prof"
             >Product Designer</span
-          >
-        </li>
-        <br />
-        <li class="ot2">
-          <img
+          ></figcaption>
+          </li>
+          <li class="ot">
+              <img
             class="Team-Card-2"
             src="./images/photo2.jpg"
             width="270"
             height="260"
             alt="middle-aged blonde woman wearing glasses, smiles"
           />
-          <br /><span class="name">John Doe</span><br /><span class="prof"
+          <figcaption class="index-figcaption">
+            <h4 class="name">John Doe</h4><span class="prof"
             >FrontEnd Developer</span
-          >
-        </li>
-        <br />
-        <li class="ot3">
-          <img
+          ></figcaption>
+          </li>
+          <li class="ot">
+            <img
             class="Team-Card-3"
             src="./images/photo3.jpg"
             width="270"
             height="260"
             alt="brown haired men smiles looking left"
           />
-          <br /><span class="name">John Doe</span><br /><span class="prof"
+          <figcaption class="index-figcaption">
+          <h4 class="name">John Doe</h4>
+          <span class="prof"
             >Marketing</span
-          >
-        </li>
-        <li class="ot4">
-          <img
+          ></figcaption>
+          </li>
+          <li class="ot">
+            <img
             class="Team-Card-4"
             src="./images/photo4.jpg"
             width="270"
             height="260"
             alt="young adult black haired men with beard and wearing glasses smiles on the backgroud of the buildings"
           />
-          <span class="name">John Doe</span><br /><span class="prof"
-            >UI Designer</span
+          <figcaption class="index-figgaption">
+          <h4 class="name">John Doe</h4>
+          <span class="prof">UI Designer</span
           >
-        </li>
-      </ul>
+          </figcaption>
+          </li>
+        </ul>
+      </div>
     </section>
+
+  </main>
     <footer>
       <address class="footer-address">
-        <a class="logo-text1" style="color: #2196f3">Web</a
-        ><a class="logo-text2" style="color: white">Studio</a><br />
-        <div class="address-footer">
-          <a class="street">m. Warszawa, Aleje Jerozoliskie 21</a><br />
-          <a class="navcolor1" href="mailto:info@example.com"
-            >info@example.com</a
-          ><br />
-          <a class="navcolor2" href="+48111111111">+48 111 111 111</a><br />
-        </div>
+        <a class="footer-logo">
+          <span class="span" style="color: #2196f3">Web</span>
+          <span class="span" style="color: white">Studio</span>
+        </a>
+        <a class="street">m. Warszawa, Aleje Jerozoliskie 21</a>
+        <a class="navcolor1" href="mailto:info@example.com">info@example.com</a>
+        <a class="navcolor2" href="+48111111111">+48 111 111 111</a><br />
       </address>
     </footer>
   </body>
