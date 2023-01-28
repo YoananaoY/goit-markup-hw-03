@@ -44,10 +44,8 @@ header {
   width: 1600px;
   height: 100%;
   border-bottom: 2px solid #eeeeee;
-  padding-left: 215px;
   padding-top: 25px;
   padding-bottom: 25px;
-  gap: 50px;
 }
 
 .head-text {
@@ -97,7 +95,7 @@ header {
   list-style: none;
   display: inline-flex;
   gap: 30%;
-  align-self: center;
+  justify-content: flex-end;
 }
 
 .linecolor:active {
@@ -234,18 +232,20 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  background-color: #f5f4fa;
 }
 
 .section-bg {
-  background-color: #f5f4fa;
   height: 100%;
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .team-list {
-  display: flex;
+  display: inline-flex;
   list-style: none;
-  justify-content: center;
+  gap: 30px;
 }
 .team-header {
   font-weight: 700;
@@ -272,11 +272,17 @@ header {
   align-items: center;
 }
 
-.job-list {
-  display: flex;
-  list-style: none;
+.job-img {
   justify-content: center;
-  padding-bottom: ;
+  display: flex;
+  margin-bottom: 94px;
+}
+
+.job-list {
+  list-style: none;
+  padding-bottom: 1px;
+  display: inline-flex;
+  gap: 30px;
 }
 
 .job-header {
@@ -349,18 +355,14 @@ header {
   height: 16px;
 }
 
-ul#cards {
-  list-style-type: none;
-}
-
 .container-box {
   padding-top: 5%;
   height: 100%;
   width: 100%;
   display: block;
   overflow: hidden;
-  flex-wrap: wrap;
   columns: 3;
+  display: flex;
   margin-bottom: 94px;
 }
 
@@ -370,6 +372,14 @@ ul#cards {
   justify-content: center;
 }
 
+#cards {
+  list-style: none;
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
+  columns: 3;
+}
+
 .signbox {
   position: relative;
   overflow: hidden;
@@ -377,7 +387,7 @@ ul#cards {
   height: auto;
   width: 370px;
   border: 1px solid #eeeeee;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .sign {
@@ -460,6 +470,7 @@ footer {
   width: 100%;
   background-color: #2f303a;
   justify-content: flex-start;
+  text-align: left;
 }
 
 .footer-address {
